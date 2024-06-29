@@ -7,6 +7,6 @@ public interface ChargingStationService {
     public String createChargingStation(ChargingStation chargingStation);
     public String updateChargingStation(ChargingStation chargingStation);
     public String deleteChargingStation(String chargingStationId);
-    public ChargingStation getchargingStation(String chargingStationId);
+    public ChargingStation getChargingStation(String chargingStationId);
     public List<ChargingStation> getAllChargingStation();
 }

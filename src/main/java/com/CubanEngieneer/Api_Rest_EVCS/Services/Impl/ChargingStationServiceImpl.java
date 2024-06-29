@@ -35,7 +35,7 @@ public class ChargingStationServiceImpl implements ChargingStationService{
     }
 
     @Override
-    public ChargingStation getchargingStation(String chargingStationId) {
+    public ChargingStation getChargingStation(String chargingStationId) {
         return chargingStationRepository.findById(chargingStationId).get();
     }
 

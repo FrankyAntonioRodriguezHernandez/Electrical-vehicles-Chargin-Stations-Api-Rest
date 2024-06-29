@@ -21,7 +21,7 @@ public class ChargingStationController {
     @GetMapping("{ChargingStationID}")
     public ChargingStation getChargingStationDetails(@PathVariable("chargingStationId") String chargingStationId){
 
-        return chargingStationService.getchargingStation(chargingStationId);
+        return chargingStationService.getChargingStation(chargingStationId);
     }
 
     @GetMapping()
